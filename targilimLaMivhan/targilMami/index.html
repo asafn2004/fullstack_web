@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sapir Tours</title>
+    <link rel="stylesheet" href="css/syle.css" />
+    <script defer src="js/beliz.js"></script>
+  </head>
+  <body>
+    <h1>Sapir Tours &#x2708;</h1>
+    <hr />
+    <br />
+    <div class="inputBox">
+      <form action="javascript:getData()" id="inputForm">
+        <select id="wToGo">
+          <option disabled selected hidden required>Destination Travel</option>
+          <option>Beliz</option>
+          <option>Mexico</option>
+          <option>Panama</option>
+        </select>
+        <br />
+        <input type="text" placeholder="Passenger Name" id="nPpl" required />
+        <br />
+        <input
+          type="number"
+          placeholder="Passenger Number"
+          id="qPpl"
+          required
+        />
+        <br />
+        <input
+          type="number"
+          placeholder="Destination Value"
+          id="dMny"
+          required
+        />
+        <br />
+        <select id="bagNum">
+          Baggage Number
+          <option disabled selected hidden required>Baggage Number</option>
+          <option>0</option>
+          <option>1 - 50$</option>
+          <option>2 - 100$</option>
+        </select>
+        <br />
+        <input type="submit" value="Add Flight" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+    <br /><br /><br />
+
+    <table>
+      <th>Image&emsp;</th>
+      <th>Destination&emsp;</th>
+      <th>Passenger Name&emsp;</th>
+      <th>Number Of Passengers&emsp;</th>
+      <th>Value&emsp;</th>
+      <th>Baggage&emsp;</th>
+      <th>Comfortable Chair?&emsp;</th>
+      <tbody id="addToTable"></tbody>
+    </table>
+    <br /><br />
+    <div id="total" class="lastDiv"></div>
+  </body>
+</html>

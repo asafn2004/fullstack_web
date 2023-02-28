@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+
+.formDiv {
+  border: 1px solid black;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 2px;
+  margin: auto;
+  font-size: 30px;
+}
+
+input {
+  padding: 7px;
+}
+select {
+  width: 180px;
+}
+
+table,
+th,
+td {
+  margin: auto;
+  font-size: x-large;
+  border: 1px solid black;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: bisque;
+  border-collapse: collapse;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: burlywood;
+  border-collapse: collapse;
+}

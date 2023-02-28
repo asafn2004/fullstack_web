@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrapHM2</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<body>
+    <div class="container" dir="rtl">
+        <table class="table table-striped table-bordered table-dark">
+            <thead>
+                <th>שם</th>
+                <th>כתובת</th>
+                <th>טלפון</th>
+                <th>תאריך</th>
+                <th>אירוע</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>אסף וספיר</td>
+                    <td>אקו גן אירועים</td>
+                    <td>0545502237</td>
+                    <td>10/11/22</td>
+                    <td>יום נישואין</td>
+                </tr>
+                <tr>
+                    <td>אסף וספיר</td>
+                    <td>צימר בצפון משהו משהו</td>
+                    <td>---</td>
+                    <td>25/06/91</td>
+                    <td>יום הולדת של ספיר</td>
+                </tr>
+                <tr>
+                    <td>אסף וספיר</td>
+                    <td>מקום של בשר</td>
+                    <td>0545502237</td>
+                    <td>6/8/21</td>
+                    <td>ערב סטייק אמאלה</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="h2">טופס פרטי אירוע</h2>
+        <hr>
+        <h6 class="h6">תאריך אירוע</h6>
+        <div class="row">
+            <div class="col">
+                <input type="date" placeholder="רשום תאריך אירוע">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col d-grid">
+                <input type="text" placeholder="שם החוגגים">
+            </div> <br>
+            <div class="col d-grid">
+                <input type="text" placeholder="כתובת">
+            </div> <br>
+            <div class="col d-grid">
+                <input type="text" placeholder="שם האירוע">
+            </div> <br>
+            <div class="col d-grid">
+                <input type="tel" placeholder="טלפון">
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-bs-toggle="dropdown">
+                    שם האירוע
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">יום נישואין</a></li>
+                    <li><a class="dropdown-item" href="#">יום האישה</a></li>
+                    <li><a class="dropdown-item" href="#">יום האהבה</a></li>
+                    <li><a class="dropdown-item" href="#">יום הולדת</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col d-grid">
+                <textarea class="form-control" rows="3" placeholder="תיאור האירוע"></textarea>
+            </div> <br>
+            <br>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-lg">
+                    הכנס שורה</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-danger btn-lg">
+                    איפוס שורה</button>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>

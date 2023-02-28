@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-color: #85ffbd;
+  background-image: linear-gradient(90deg, #85ffbd 0%, #fffb7d 100%);
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 2px;
+  margin: auto;
+  font-size: 30px;
+}
+
+input {
+  padding: 7px;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: gray;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: bisque;
+}

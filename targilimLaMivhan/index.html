@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Targil 1 - Zevel</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/targil1.js"></script>
+  </head>
+  <body>
+    <h1>Toranot Zevel in Segall Nahmias House</h1>
+    <hr />
+    <div class="divForm">
+      <form action="javascript:handleData()" id="zForm">
+        <input type="text" placeholder="name of the morid zevel" id="zName" />
+        <br /><br />
+        <input type="tel" placeholder="tel of the morid zevel" id="zTel" />
+        <br /><br />
+        <input type="number" placeholder="ID of the morid zevel" id="zId" />
+        <br /><br />
+        <input type="submit" value="add person" />
+        <input type="reset" value="reset" />
+      </form>
+    </div>
+    <br /><br /><br /><br />
+    <table>
+      <thead>
+        <th>Name&ensp;&ensp;</th>
+        <th>Tel&ensp;&ensp;</th>
+        <th>ID num&ensp;&ensp;</th>
+      </thead>
+      <tbody id="tavla"></tbody>
+    </table>
+  </body>
+</html>

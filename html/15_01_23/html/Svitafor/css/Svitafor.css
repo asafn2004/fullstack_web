@@ -1,0 +1,54 @@
+.mainBox {
+    width: 150px;
+    height: 350px;
+    margin: auto;
+    background-color: black;
+
+}
+
+
+.redBox {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    padding: 0;
+    background-color: red;
+    position: relative;
+}
+
+.yellowTri {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 100px solid;
+    margin: auto;
+    background-color: black;
+    color: yellow;
+}
+
+
+.greenMeo {
+    width: 40px;
+    height: 40px;
+    margin: 40px auto;
+    transform: rotate(135deg);
+    padding: 10px;
+    background-color: green;
+}
+
+
+.stick {
+
+    width: 50px;
+    height: 200px;
+    margin: auto;
+    background-color: black;
+}
+
+.bottom {
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    background-color: black;
+}

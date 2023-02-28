@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friend list</title>
+    <script src="js/friends.js"></script>
+    <link rel="stylesheet" href="css/friends.css" />
+  </head>
+
+  <body>
+    <h1>My Friend List</h1>
+    <hr />
+    <div class="Box">
+      <form action="javascript:getData()" id="friendForm">
+        <input
+          type="text"
+          placeholder="Friend Name..."
+          id="fName"
+          required
+        /><br /><br />
+        <input
+          type="tel"
+          placeholder="Friend Telephone..."
+          id="fTel"
+          required
+        /><br /><br />
+        <input
+          type="text"
+          placeholder="Friend Photo....."
+          id="fImg"
+          required
+        /><br /><br />
+        <input type="submit" value="submit" onclick="addToTable()" />
+        <input type="reset" value="reset" />
+      </form>
+    </div>
+    <br /><br />
+    <table>
+      <thead>
+        <th>Select&ensp;</th>
+        <th>Name&ensp;</th>
+        <th>tel&ensp;</th>
+        <th>photo &ensp;</th>
+      </thead>
+      <tbody id="friendTable"></tbody>
+    </table>
+  </body>
+</html>

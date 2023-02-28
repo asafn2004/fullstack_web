@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Ham</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/hot.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to Hammmm</h1>
+    <hr />
+    <span class="myHeader" id="userTime"></span>
+    <br /><br />
+    <!-- <span class="myHeader" id="userTime"></span><br /><br /> -->
+    <!-- waiting divs -->
+    <div class="Waiting">
+      <div class="Box" id="lab">
+        Lab Waiting list
+        <hr />
+        <table id="tLab"></table>
+      </div>
+      <div class="Box" id="service">
+        Service Waiting list
+        <hr />
+        <table id="tService"></table>
+      </div>
+      <div class="Box" id="sales">
+        Sales Waiting list
+        <hr />
+        <table id="tSales"></table>
+      </div>
+    </div>
+    <br /><br /><br />
+    <!-- Next divs -->
+    <div class="Service">
+      <div class="Box">
+        Lab
+        <hr />
+        <span id="s_lab" class="Phone">Free</span>
+        <br />
+        <button class="nextButton" onclick="nextLab()">Next</button>
+      </div>
+      <div class="Box">
+        Service
+        <hr />
+        <span id="s_service" class="Phone">Free</span>
+        <br />
+        <button class="nextButton" onclick="nextService()">Next</button>
+      </div>
+      <div class="Box">
+        Sales
+        <hr />
+        <span id="s_sales" class="Phone">Free</span>
+        <br />
+        <button class="nextButton" onclick="nextSales()">Next</button>
+      </div>
+    </div>
+    <br /><br /><br />
+    <hr />
+    <br /><br /><br />
+    <!-- input number -->
+    <div class="inputBox">
+      <input type="tel" id="phone_num" placeholder="Phone Number" />
+      <select id="optionSelect">
+        <option>Sales</option>
+        <option>Service</option>
+        <option>Lab</option>
+      </select>
+      <button class="addButton" onclick="addNumber()">Add</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1 - Add Product</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/addProduct.js"></script>
+  </head>
+  <body>
+    <h1>Add Product</h1>
+    <hr />
+    <br /><br />
+    <!-- form section  -->
+    <div class="formDiv">
+      <form id="formAdd" action="javascript:getData()">
+        <input type="text" placeholder="שם המוצר" id="productName" required />
+        <input
+          type="number"
+          placeholder="מחיר המוצר"
+          id="productPrice"
+          required
+        />
+        <select id="productOptions" required>
+          <option>Drinks</option>
+          <option>Meat</option>
+          <option>Dairy</option>
+          <option>Snacks</option>
+          <option>Basic</option>
+        </select>
+        <input
+          type="url"
+          placeholder="כתובת לינק לתמונה"
+          id="productImg"
+          required
+        />
+        <input type="submit" value="Add Product" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+    <!-- table section  -->
+    <br /><br /><br />
+    <h1>My Cart</h1>
+    <br /><br /><br />
+    <table>
+      <thead>
+        <th>&emsp;שם המוצר</th>
+        <th>&emsp;מחיר</th>
+        <th>&emsp;קטגוריה</th>
+        <th>&emsp;תמונה</th>
+        <th>&emsp;Actions</th>
+      </thead>
+      <tbody id="productTable"></tbody>
+    </table>
+  </body>
+</html>

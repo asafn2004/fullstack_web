@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background: rgb(159, 154, 154);
+  background: linear-gradient(
+    90deg,
+    rgba(159, 154, 154, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(98, 96, 96, 1) 100%
+  );
+}
+
+.Box {
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 2px gainsboro;
+  width: 30%;
+  height: 200px;
+  overflow: auto;
+  font-size: large;
+}
+
+.Waiting,
+.Service {
+  width: 100%;
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.inputBox {
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 2px gainsboro;
+  width: 40%;
+  height: 75px;
+  margin: auto;
+  padding: 20px;
+}
+
+select {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.addButton {
+  padding: 20px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+
+.nextButton {
+  padding: 20px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+
+.myHeader {
+  font-size: 200%;
+}
+
+.Phone {
+  font-size: 300%;
+  color: black;
+}
